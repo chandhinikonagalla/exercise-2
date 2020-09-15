@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML page</title>
+</head>
+<body>
+<form name="frmEntry" id="frmEntry" action="homepage.html" method="get">
+<fieldset>
+<legend>Registratin Form</legend>
+<p><label for="UserID">UserID:</label>
+<input type="text" name="txtUserID' id="txtUserID" placeholder="Enter ur ID" value=""/></p>
+<p><label for="txtFirstName">First Name:</label>
+<input type="text" name="txtFirstName" id="txtFirstName" placeholder="Enter ur First Name" value=""/></p>
+<p><label for="txtLastName">Last Name:</label>
+<input type="text" name="txtLasttName" id="txtLastName" placeholder="Enter ur Last Name" value=""/></p>
+<p><label for="txtAddress">Address:</label>
+<textarea name="txtAddress" id="txtAdress" rows="10" cols="20" wrap="hard" value=""></textarea></p>
+<p><label for="slctCountry">Country:</label>
+<select name="slctCountry" id="SlctCountry">
+<option value="i">India</option>
+<option value="A">America</option>
+<option value="D">Dubai</option>
+<option value="M">Malaysia</option>
+</select>
+</p>
+<p>
+<label for="idNumber">Phone Number:</label>
+<input type="tel" name="idNumber" id="idNumber" maxlength="10" min="1"/>
+</p>
+<p>
+<label for="idCode">ZipCode:</label>
+<input type="number" name="idCode" id="idCode" maxlength="5" min="1"/>
+</p>
+<p>
+<label for="rdbGender">Gender:</label>
+<input type="radio" name="rdbGender" id="rdbGender" value="f" checked/>Female
+<input type="radio" name="rdbGender" id="rdbGender" value="m"/>male
+</p>
+<p>
+<input type="submit" name="btnsubmit" id="btnsubmit" value="SUBMIT"/>
+</p>
+<input type="reset" name="btnReset" id="btnReset" value="RESET"/>
+</p>
+</fieldset>
+</form>
+</body>
+</head>
