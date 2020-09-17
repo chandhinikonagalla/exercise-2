@@ -1,0 +1,129 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Webpage</title>
+<style type="text/css">
+h1
+{
+text-transform:uppercase;
+text-decoration:underline;
+text-align:center;
+}
+.section
+{
+font-family:algerian;
+font-variant:small-caps;
+font-size:24pt;
+color:white;
+}
+p
+{
+text-align:justify;
+color:white;
+}
+div
+{
+background-color:brown;
+border:3px solid red;
+}
+body
+{
+background-image:url('cutie.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+background-position:center;
+
+}
+ul
+{
+list-style:none;
+}
+li::before
+{
+content:"\25AA";
+color:violet;
+display:inline-block;
+margin-right:0.5em;
+}
+li
+{
+color:white;
+}
+table
+{ 
+}
+.div1
+{
+margin:10px;
+background-color:white;
+}
+.newline
+{
+color:black;
+}
+a
+{
+text-decoration:none;
+}
+a:hover
+{
+text-decoration:underline;
+}
+</style>
+</head>
+<body>
+<h1>movie dashboard</h1>
+<div>
+<span class="section">this is an introduction</span>
+<p>Loren ipsum dolor sit amet,consectetur adipisicing elit.quam soluta renum,debitis in sint,iste
+ullam sapiente nostrum quos distincto,aspematur itaque saepe eius ducimus doloribus architecto tempora expedita quaerat
+</p>
+<span class="section">the following inforamation are displayed for the movies</span>
+<ul>
+<li>Movie Name</li>
+<li>Movie Artist</li>
+<li>Movie Release Year</li>
+<li>IMDB Link</li>
+</ul>
+</div>
+<div class="div1">
+<table border="1px" width="100%" >
+<caption>Movie List</caption
+<tr>
+<th>Movie Name</th>
+<th>Movie Artist</th>
+<th>Movie Release Year</th>
+<th>IMDB link</th>
+</tr>
+</th>
+<tr>
+<td>Pursuit Of Happyness</td>
+<td>Will Smith</td>
+<td>2006</td>
+<td><a href="https://www.imdb.com/title/tt0454921/" target="_self">IMDB Link</a></td>
+</tr>
+<tr>
+<td>Slumdog Millionaire</td>
+<td>Dev patel,Anil kapoor</td>
+<td>2008</td>
+<td><a href="https://www.imdb.com/title/tt1010048/" target="_self">IMDB Link</td>
+</tr>
+<tr>
+<td>vantage point</td>
+<td>Dennis Quaid,Mathew Fox</td>
+<td>2008</td>
+<td><a href="https://www.imdb.com/title/tt0443274/" target="_self">IMDB Link</td>
+</tr>
+<tr>
+<td>Argo</td>
+<td>2012</td>
+<td>Ben Affleck,Bryan cranston</td>
+<td><a href="https://www.imdb.com/title/tt1024648/" target="_self">IMDB Link</td>
+</tr>
+</table>
+<p  class="newline">The above table represents movie details</p>
+</div>
+</body>
+</html>
